@@ -1,0 +1,132 @@
+.hero-section {
+    padding-bottom: 40px;
+    height: 100%;
+}
+
+/* hero-nav */
+.hero-nav {
+    position: relative;
+    z-index: 2;
+    margin: 0px 145px;
+    padding: 28px 0px;
+}
+
+.hero-bg-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.hero-bg-container .hero-bg {
+    position: absolute;
+    height: 570px;
+    width: 100%;
+}
+
+.hambar {
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* repos-logo */
+.repos-logo {
+    height: 48px;
+}
+
+/* hero-action-btns  */
+.hero-action-btns {
+    gap: 14px;
+    list-style-type: none;
+}
+
+.normal-btn {
+    font-weight: 600;
+    padding: 8px 12px;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+
+}
+
+.special-btn,.special-btn2 {
+    position: relative;
+    font-weight: 600;
+    padding: 6px 22px;
+    border: 2px solid #fff;
+    border-top-left-radius: 16px;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.special-btn2::after{
+    position: absolute;
+    content: '>';
+    right: 8px;
+    transition: all 0.5s ease-in-out;
+
+}
+.special-btn2:hover::after{
+    right:1px;
+}
+/* hero-section-content */
+.hero-section-content {
+    z-index: 2;
+    margin-left: 130px;
+}
+
+.hero-heading {
+    max-width: 500px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.fs-1 {
+    font-size: 44px !important;
+}
+
+.hero-para {
+    max-width: 450px;
+    color: #fff;
+}
+
+.underLine {
+    position: relative;
+    display: inline-block;
+}
+
+.underLine::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background: #22e287;
+    left: 0px;
+    bottom: 6px;
+    height: 7px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.canvasOption{
+    z-index: 20000;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+@media screen and (max-width:768px) {
+
+    .hero-nav,
+    .hero-section-content {
+        margin: 0px 40px;
+    }
+
+    .fs-1 {
+        font-size: 30px !important;
+    }
+    .underLine::before {
+        height: 5px;
+    }
+}

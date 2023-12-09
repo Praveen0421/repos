@@ -1,0 +1,56 @@
+.footer{
+    padding:0px 20px;
+    color: #fff;
+    background: #002365;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-top-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+.main-footer-content{
+    padding: 60px 0px;
+}
+.city-country-container{
+    padding: 10px 0px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.circle-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+/* layout */
+.margin-145{
+    margin: 0px 145px;
+}
+.list-style-none{
+    list-style-type: none;
+}
+
+.center-style-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:768px) {
+    .margin-145{
+        margin: 0px 0px;
+    }
+}
+
+.rout{
+    background-color: blue;
+    padding: 5px;
+    margin-bottom: 50px;
+}
