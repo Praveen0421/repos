@@ -54,3 +54,16 @@ a{
     padding: 5px;
     margin-bottom: 50px;
 }
+.style{
+    font-family: 'ProIt',sans-serif;
+    font-size: 16px;
+}
+
+.items{
+    font-family: 'ProIt',sans-serif;
+    font-size: 13px;
+}
+.middle{
+    font-family: 'ProIt',sans-serif;
+    font-size: 14px;
+}

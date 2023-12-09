@@ -1,4 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'ProBlack';
+      src: url('./assets/font/ProBlack/AvenirLTProBlack.otf')/* IE9 Compat Modes */
+
+  }
+
+  @font-face {
+    font-family: 'ProBlold';
+      src: url('./assets/font/ProBold/AvenirNextLTPro-Bold.otf')/* IE9 Compat Modes */
+
+  }
+
+  @font-face {
+    font-family: 'ProBoldCn';
+      src: url('./assets/font/ProBlack/AvenirLTProBlack.otf')/* IE9 Compat Modes */
+
+  }
+  @font-face {
+    font-family: 'ProDemi';
+      src: url('./assets/font/ProDemi/AvenirNextLTPro-Demi.otf')/* IE9 Compat Modes */
+
+  }
+  @font-face {
+    font-family: 'ProDemiCn';
+      src: url('./assets/font/ProBlack/AvenirLTProBlack.otf')/* IE9 Compat Modes */
+
+  }
+  @font-face {
+    font-family: 'ProIt';
+      src: url('./assets/font/AvenirNextLTPro-It.otf')/* IE9 Compat Modes */
+  }
+
+  @font-face {
+    font-family: 'ProRegular';
+      src: url('./assets/font/AvenirNextLTPro-Regular.otf')/* IE9 Compat Modes */
+
+  }
 
 * {
     margin: 0;
@@ -8,3 +45,5 @@
 html,body{
     height: 100%;
 }
+
+

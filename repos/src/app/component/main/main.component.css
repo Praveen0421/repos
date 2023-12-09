@@ -1,18 +1,22 @@
-*{
-    /* border:1px solid red; */
-}
+
+
 .retail-businesses {
+    position: relative;
     padding: 44px 0px;
 
 }
 
 .section-heading {
     padding: 30px 0px 25px 0px;
+    font-family: 'ProDemi',sans-serif;
+    font-size: 38px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: normal;
 }
 
-.fs-1 {
-    font-size: 44px !important;
-}
+
+
 
 .card-block {
     margin-top: 20px;
@@ -21,7 +25,7 @@
 .cards {
     padding: 35px;
     background: #F4FAFF;
-    min-width: 350px;
+    width: 350px;
     height: fit-content;
     border-radius: 14px;
     border: none;
@@ -29,12 +33,14 @@
 }
 
 .card-image {
-    height: 90px;
+    height: 85px;
 }
 
 .card-heading {
     margin-top: 25px;
-    font-size: 18px;
+   font-family: 'ProDemi',sans-serif;
+   font-size: 18px;
+   font-weight: 100;
 }
 
 .underLine {
@@ -72,7 +78,10 @@ a {
 
 .animation-line {
     position: relative;
-    font-size: 15px;
+   font-family: 'ProIt',sans-serif;
+   font-family: "Avenir Next LT Pro", Sans-serif;
+    font-size: 15.5px;
+
 }
 
 .animation-line::before {
@@ -103,29 +112,33 @@ a {
 
 /* list-icon */
 .list-icon {
-    height: 25px;
+    max-height: 25px;
 }
 
 .special-btn,.special-btn2 {
     position: relative;
+    font-family: 'ProIt',sans-serif;
     font-weight: 600;
-    padding: 6px 22px;
-    border: 2px solid #000;
+    padding: 8px 24px 8px 16px;
+    border: 1px solid #002365;
     border-top-left-radius: 16px;
     background: transparent;
-    color: #000;
-    font-size: 15px;
+    color: #002365;
+    font-size: 13.23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
-
 .special-btn2::after{
     position: absolute;
-    content: '>';
-    right: 8px;
+    content: '❯';
+    right: 12px;
     transition: all 0.5s ease-in-out;
+    font-size: 12px;
 
 }
 .special-btn2:hover::after{
-    right:1px;
+    right:6px;
 }
 .home-img {
     height: 356px;
@@ -137,13 +150,22 @@ a {
     padding: 44px 0px;
 }
 
-.article .p {
-    font-size: 15px;
+.article{
+    font-size: 11.56px;
+    font-family: 'ProIt',sans-serif;
+}
+
+.p {
+    font-size: 14.56px;
+    font-family: 'ProRegular',sans-serif;
+    line-height: 1.5;
+    font-weight: 0;
 }
 
 /* prouct section */
 .product-section {
-    padding: 44px 0px;
+    /* padding: 44px 0px; */
+    margin: 0px 140px 140px 150px;
 }
 
 .product-card {
@@ -170,14 +192,18 @@ a {
 }
 
 .product-card-heading {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
+    font-family: 'ProDemi',sans-serif;
 }
 
 .product-card-subheading {
-    font-size: 18px;
+    font-size: 15.36px;
+    font-family: 'ProIt', sans-serif;
 }
-
+.product-descp{
+    font-family:'ProIt' sans-serif; font-size: 13.32px;
+}
 /* layout */
 .margin-145 {
     margin: 0px 145px;
@@ -196,7 +222,7 @@ a {
 
 /* product-image-container */
 .product-image-container {
-    width: 200px;
+    width: 250px;
 }
 
 .product-image {
@@ -292,23 +318,26 @@ a {
 
 .feature-heading {
     color: #002365;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-family: 'ProDemi',sans-serif;
 }
 .business-card{
     margin-top:100px;
-    padding: 60px 20px;
-    border-radius: 14px;
+    padding: 75px 20px;
+    border-radius: 15px;
     color: #fff;
     background-color: #002365;
     ;
 }
 .feature-description {
-    font-size: 14px;
+    font-size: 13.23px;
+    font-family: 'ProIt',sans-serif;
     color: #555;
 }
 
 .know-more {
+    font-size: 13.23px;
+    font-family: 'ProIt',sans-serif;
     color: #71C6FF;
 }
 
@@ -356,6 +385,17 @@ a {
     background:transparent;
 }
 
+.form option{
+    outline: none;
+    border: none;
+    background:transparent;
+}
+
+.label{
+    font-family:'ProIt',sans-serif ;
+    font-size: 12.8px;
+}
+
 @media screen and (min-width:1024px) {
     .feature-card{
         padding: 0px;
@@ -365,11 +405,11 @@ a {
 }
 
 @media screen and (max-width:768px) {
-    .business-card{
-margin-top: 30px;
+    .cards {
+        width: auto;
     }
     .margin-145 {
-        margin: 0px 20px;
+        margin: 0px 30px;
     }
 
     .fs-1 {
@@ -382,13 +422,20 @@ margin-top: 30px;
     .home-img {
         align-self: center;
     }
+    .section-heading{
+        font-size: 30px;
+    }
 }
 @media screen and (max-width:425px){
-    .fs-1 {
-        font-size: 23px !important;
+    .section-heading{
+        font-size: 23px;
     }
+
     .underLine::before{
         height: 5px;
+    }
+    .margin-145 {
+        margin: 0px 18px;
     }
 }
 
