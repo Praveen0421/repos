@@ -78,7 +78,7 @@ a {
 
 .animation-line {
     position: relative;
-   font-family: 'ProIt',sans-serif;
+   font-family: 'ProRegular',sans-serif;
    font-family: "Avenir Next LT Pro", Sans-serif;
     font-size: 15.5px;
 
@@ -117,7 +117,7 @@ a {
 
 .special-btn,.special-btn2 {
     position: relative;
-    font-family: 'ProIt',sans-serif;
+    font-family: 'ProRegular',sans-serif;
     font-weight: 600;
     padding: 8px 24px 8px 16px;
     border: 1px solid #002365;
@@ -152,7 +152,7 @@ a {
 
 .article{
     font-size: 11.56px;
-    font-family: 'ProIt',sans-serif;
+    font-family: 'ProRegular',sans-serif;
 }
 
 .p {
@@ -199,10 +199,10 @@ a {
 
 .product-card-subheading {
     font-size: 15.36px;
-    font-family: 'ProIt', sans-serif;
+    font-family: 'ProRegular', sans-serif;
 }
 .product-descp{
-    font-family:'ProIt' sans-serif; font-size: 13.32px;
+    font-family:'ProRegular' sans-serif; font-size: 13.32px;
 }
 /* layout */
 .margin-145 {
@@ -331,13 +331,13 @@ a {
 }
 .feature-description {
     font-size: 13.23px;
-    font-family: 'ProIt',sans-serif;
+    font-family: 'ProRegular',sans-serif;
     color: #555;
 }
 
 .know-more {
     font-size: 13.23px;
-    font-family: 'ProIt',sans-serif;
+    font-family: 'ProRegular',sans-serif;
     color: #71C6FF;
 }
 
@@ -392,7 +392,7 @@ a {
 }
 
 .label{
-    font-family:'ProIt',sans-serif ;
+    font-family:'ProRegular',sans-serif ;
     font-size: 12.8px;
 }
 

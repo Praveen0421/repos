@@ -45,7 +45,7 @@
 }
 
 .normal-btn {
-    font-family: 'ProIt', sans-serif;
+    font-family: 'ProRegular', sans-serif;
     font-weight: 600;
     padding: 8px 12px;
     background: transparent;
@@ -58,7 +58,7 @@
 .special-btn,
 .special-btn2 {
     position: relative;
-    font-family: 'ProIt', sans-serif;
+    font-family: 'ProRegular', sans-serif;
     font-weight: 600;
     padding: 8px 24px 8px 16px;
     border: 1px solid #fff;
@@ -100,7 +100,7 @@
 }
 
 .hero-para {
-    font-family: 'ProIt', sans-serif;
+    font-family: 'ProRegular', sans-serif;
     max-width: 460px;
     color: #fff;
     letter-spacing: 0px;

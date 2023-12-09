@@ -28,12 +28,12 @@
   }
   @font-face {
     font-family: 'ProIt';
-      src: url('./assets/font/AvenirNextLTPro-It.otf')/* IE9 Compat Modes */
+      src: url('./assets/font/ProIt/AvenirNextLTPro-It.otf')/* IE9 Compat Modes */
   }
 
   @font-face {
     font-family: 'ProRegular';
-      src: url('./assets/font/AvenirNextLTPro-Regular.otf')/* IE9 Compat Modes */
+      src: url('./assets/font/ProRegular/AvenirNextLTPro-Regular.otf')/* IE9 Compat Modes */
 
   }
 
