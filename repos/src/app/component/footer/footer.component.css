@@ -1,9 +1,11 @@
 .footer{
-    padding:0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #fff;
     background: #002365;
 }
-a{
+.center-style-list a{
     text-decoration: none;
     color: #fff;
 }
@@ -16,8 +18,20 @@ a{
 .main-footer-content{
     padding: 60px 0px;
 }
+.footer-list-heading{
+    font-size: 1.25vw;
+    font-weight: 600;
+    line-height: 28.8px;
+    font-family: 'ProRegular';
+}
+.items{
+    font-family: 'ProRegular',sans-serif;
+    font-size: 1.04vw;
+    font-weight: 400;
+}
+
+
 .city-country-container{
-    padding: 10px 0px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
 }
@@ -25,14 +39,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1.5px solid #fff;
+    border: 2px solid #fff;
     width: 40px;
     height: 40px;
     border-radius: 50px;
 }
 /* layout */
 .margin-145{
-    margin: 0px 145px;
+width: 78.07vw;
 }
 .list-style-none{
     list-style-type: none;
@@ -43,27 +57,63 @@ a{
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width:768px) {
-    .margin-145{
-        margin: 0px 0px;
+.india-country a{
+    padding: 15px 27px;
+}
+.outside-country a{
+    padding: 15px 15px;
+}
+.middle{
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 24px;
+}
+@media screen and (max-width:1024px) {
+    .footer-list-heading{
+        font-size: 2vw;
+    }
+    .middle{
+        font-family: 'ProRegular',sans-serif;
+        font-size: 1.6vw;
+    }
+    .circle-icon{
+
+        width: 35px;
+        height: 35px;
+
     }
 }
-
 .rout{
     background-color: blue;
     padding: 5px;
     margin-bottom: 50px;
 }
-.style{
-    font-family: 'ProIt',sans-serif;
-    font-size: 16px;
+
+.copyright-link{
+    color:#fff;
+}
+@media screen and (max-width:767px) {
+    .footer-list-heading{
+        font-size: 4.5vw;
+    }
+    .items,.copyright{
+        font-size: 4vw;
+    }
+    .margin-145{
+        margin: 0px 0px;
+    }
+    .india-country{
+        padding: 10px 0px 14px 0px;
+    }
+    .middle{
+        font-family: 'ProRegular',sans-serif;
+        font-size: 4vw;
+    }
+    .india-country a{
+        padding: 0px 11px;
+    }
+    .outside-country a{
+        padding: 0px 11px;
+    }
 }
 
-.items{
-    font-family: 'ProIt',sans-serif;
-    font-size: 13px;
-}
-.middle{
-    font-family: 'ProIt',sans-serif;
-    font-size: 14px;
-}

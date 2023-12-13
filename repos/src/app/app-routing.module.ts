@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainComponent } from './component/main/main.component';
 
 const routes: Routes = [
+{path:'', redirectTo:'Main', pathMatch:'full'},
+{path:'Main',component:MainComponent},
 
 ];
 

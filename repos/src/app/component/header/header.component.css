@@ -2,6 +2,11 @@
     position: relative;
     padding-bottom: 40px;
     height: 632px;
+
+}
+
+.hero-content-container {
+    width: 78.07vw;
 }
 
 /* hero-nav */
@@ -9,6 +14,8 @@
     position: relative;
     z-index: 2;
     padding: 28px 0px;
+    align-self: center;
+
 }
 
 .hero-bg-container {
@@ -19,8 +26,11 @@
     width: 100%;
 }
 
-.hero-bg-container .hero-bg {
+.hero-bg-container .hero-bg,
+.hero-bg-container .hero-bg2 {
     position: absolute;
+    left: 0px;
+    top: 0px;
     height: 100%;
     width: 100%;
 }
@@ -33,7 +43,7 @@
 
 /* repos-logo */
 .repos-logo {
-    height: 48px;
+    width: 8.65vw;
 }
 
 /* hero-action-btns  */
@@ -61,11 +71,11 @@
     font-family: 'ProRegular', sans-serif;
     font-weight: 600;
     padding: 8px 24px 8px 16px;
-    border: 1px solid #fff;
+    border: 1.5px solid #fff;
     border-top-left-radius: 16px;
     background: transparent;
     color: #fff;
-    font-size: 13.23px;
+    font-size: 1.04vw;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -76,7 +86,7 @@
     content: '❯';
     right: 12px;
     transition: all 0.5s ease-in-out;
-    font-size: 12px;
+    font-size: 1.04vw;
 
 }
 
@@ -86,8 +96,10 @@
 
 /* hero-section-content */
 .hero-section-content {
+align-self: start;
     margin-top: 20px;
     z-index: 2;
+
 }
 
 .hero-heading {
@@ -104,7 +116,7 @@
     max-width: 460px;
     color: #fff;
     letter-spacing: 0px;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 10px;
 }
 
@@ -131,32 +143,131 @@ a {
 }
 
 .margin-145 {
-    margin: 0px 145px;
+    width: 78.07vw;
 }
 
 @media screen and (max-width:768px) {
+    .margin-145{
+        width: 82vw;
+    }
     .hero-heading {
         font-size: 30px;
     }
 
-    .margin-145 {
-        margin:0px  30px;
-    }
 
     .underLine::before {
         height: 5px;
     }
+    .special-btn,
+    .special-btn2 {
+        font-size: 2.04vw;
+    }
+
 }
 
 @media screen and (max-width:576px) {
     .hero-heading {
         font-size: 23px;
     }
-    .margin-145 {
-        margin:0px 18px;
-    }
 
     .underLine::before {
         height: 5px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .hero-bg {
+        display: block;
+    }
+
+    .hero-bg2 {
+        display: none;
+    }
+
+    .hero-heading2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .margin-145{
+        width: 100%;
+    }
+    .hero-section{
+        max-height: 723px;
+    }
+    .repos-logo{
+        width: 30vw;
+        max-width: 30vw;
+    }
+    .hero-nav{
+        padding: 16px 5vw;
+    }
+    .hero-section-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero-content-container {
+        width: 100%;
+        height: 83%;
+        justify-content: end!important;
+    }
+
+    .hero-bg {
+        display: none;
+    }
+
+    .hero-bg2 {
+        display: block;
+    }
+
+    .hero-heading {
+        display: none;
+    }
+
+    .hero-para {
+        text-align: center;
+        font-size: 4.2vw;
+        line-height: 4.2vw;
+
+    }
+
+    .hero-heading2 {
+        color: #fff;
+        font-family: 'ProBlack';
+        text-align: center;
+        font-size: 6.26vw;
+        line-height: 6.26vw;
+        display: block;
+    }
+
+    .special-btn,
+    .special-btn2 {
+        font-size: 2.93vw;
+    }
+
+    .special-btn2::after {
+        font-size: 2.93vw;
+    }
+}
+@media screen and (max-width:425px)and (max-width:480px){
+    .hero-section{
+
+        height: 642px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:425px){
+    .hero-section{
+
+        height: 566px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:325px){
+    .hero-section{
+
+        height: 505px;
     }
 }

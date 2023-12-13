@@ -1,327 +1,439 @@
 <div class="d-block">
-    <app-header></app-header>
+    <app-header [routerLink]="" [fragment]="'Form'" id="Header"></app-header>
     <!-- start retail section -->
 
-    <section class="retail-businesses margin-145" id="Retail">
-        <div>
-            <h2 class="text-start section-heading">Which Retail Businesses leverage the power of <span
-                    class="underLine">RePOS</span>?</h2>
+    <section class="retail-businesses " id="Retail">
+        <div class="margin-145">
+            <div class="section-heading-block align-self-md-start">
+                <h2 class="section-heading">Which Retail Businesses leverage the power of <span
+                        class="underLine">RePOS</span>?</h2>
+            </div>
+
+            <div class="card-block  d-flex flex-column flex-md-row  align-items-center gap-md-4 w-100 mt-2">
+                <!-- start card1 -->
+                <div class="cards">
+                    <div class="card-top-content d-flex align-items-center gap-2 d-md-block">
+                        <figure class="card-icon-block">
+                            <img class="card-image" src="../../../assets/image/dress-svg.svg" alt="dress-svg">
+                        </figure>
+                        <h4 class="card-heading">Lifestyle & Fashion</h4>
+                    </div>
+
+                    <ul class="list-items">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/coat.svg" alt=""></span>
+                                <h2 class="animation-line">Garments</h2>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/footwear.svg" alt=""></span>
+                                <h2 class="animation-line">Footwear</h2>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/sportswear.svg" alt=""></span>
+                                <h2 class="animation-line">Sportswear</h2>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/Garments.svg" alt=""></span>
+                                <h2 class="animation-line">Boutique</h2>
+                            </li>
+                        </a>
+                    </ul>
+
+                </div>
+                <!-- end card1 -->
+
+                <!-- start card2 -->
+
+                <div class="cards">
+                    <div class="card-top-content d-flex align-items-center gap-2 d-md-block">
+                        <figure class="card-icon-block">
+                            <img class="card-image" src="../../../assets/image/cart-svg.svg" alt="dress-svg">
+                        </figure>
+                        <h4 class="card-heading">Supermarket & Groceries</h4>
+                    </div>
+
+                    <ul class="list-items">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/retail.svg" alt=""></span>
+                                <h2 class="animation-line">Supermarket</h2>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/fruit.svg" alt=""></span>
+                                <h2 class="animation-line">Fruits & Vegetables</h2>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/Convenience-stores.svg" alt=""></span>
+                                <h2 class="animation-line">Convenience Stores</h2>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/basket.svg" alt=""></span>
+                                <h2 class="animation-line">Gourmet Stores</h2>
+                            </li>
+                        </a>
+                    </ul>
+
+                </div>
+                <!-- end card2 -->
+
+                <!-- start card3 -->
+
+                <div class="cards">
+                    <div class="card-top-content d-flex align-items-center gap-2 d-md-block">
+                        <figure class="card-icon-block">
+                            <img class="card-image" src="../../../assets/image/bag-svg.svg" alt="dress-svg">
+                        </figure>
+                        <h4 class="card-heading">Niche Retail</h4>
+                    </div>
+
+                    <ul class="list-items">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/gift-box-with-a-bow.svg" alt=""></span>
+                                <h2 class="animation-line">Gift Articles Shop</h2>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/stationery1.svg" alt=""></span>
+                                <h2 class="animation-line">Stationery Store</h2>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/almond.svg" alt=""></span>
+                                <h2 class="animation-line">Roastery Store</h2>
+                            </li>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <li class="d-flex align-items-center gap-2"><span><img class="list-icon"
+                                        src="../../../assets/image/beef.svg" alt=""></span>
+                                <h2 class="animation-line">Meat Shop</h2>
+                            </li>
+                        </a>
+                    </ul>
+
+                </div>
+                <!-- end card3 -->
+            </div>
         </div>
-
-        <div class="col d-flex flex-column flex-md-row justify-content-center gap-4 p-2">
-            <div class="cards col-12 col-md-3">
-                <div class="card-top-content">
-                    <figure class="card-icon-block">
-                        <img class="card-image" src="../../../assets/image/dress-svg.svg" alt="dress-svg">
-                    </figure>
-                    <h4 class="card-heading">Lifestyle & Fashion</h4>
-                </div>
-
-                <ul class="list-items">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon" src="../../../assets/image/coat.svg"
-                                    alt=""></span><span class="animation-line">Garments</span></li>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon" src="../../../assets/image/footwear.svg"
-                                    alt=""></span><span class="animation-line">Footwear</span></li>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon" src="../../../assets/image/sportswear.svg"
-                                    alt=""></span><span class="animation-line">Sportswear</span></li>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon" src="../../../assets/image/Garments.svg"
-                                    alt=""></span><span class="animation-line">Boutique</span></li>
-                    </a>
-                </ul>
-
-            </div>
-
-            <div class="cards col-12 col-md-3">
-                <div class="card-top-content">
-                    <figure class="card-icon-block">
-                        <img class="card-image" src="../../../assets/image/cart-svg.svg" alt="dress-svg">
-                    </figure>
-                    <h4 class="card-heading">Supermarket & Groceries</h4>
-                </div>
-
-                <ul class="list-items">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon" src="../../../assets/image/retail.svg"
-                                    alt=""></span><span class="animation-line">Supermarket</span></li>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon" src="../../../assets/image/fruit.svg"
-                                    alt=""></span><span class="animation-line">Fruits & Vegetables</span></li>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon"
-                                    src="../../../assets/image/Convenience-stores.svg" alt=""></span><span
-                                class="animation-line">Convenience Stores</span></li>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon" src="../../../assets/image/basket.svg"
-                                    alt=""></span><span class="animation-line">Gourmet Stores</span></li>
-                    </a>
-                </ul>
-
-            </div>
-
-            <div class="cards col-12 col-md-3">
-                <div class="card-top-content">
-                    <figure class="card-icon-block">
-                        <img class="card-image" src="../../../assets/image/bag-svg.svg" alt="dress-svg">
-                    </figure>
-                    <h4 class="card-heading">Niche Retail</h4>
-                </div>
-
-                <ul class="list-items">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon"
-                                    src="../../../assets/image/gift-box-with-a-bow.svg" alt=""></span><span
-                                class="animation-line">Gift Articles Shop</span></li>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon"
-                                    src="../../../assets/image/stationery1.svg" alt=""></span><span
-                                class="animation-line">Stationery Store</span></li>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon" src="../../../assets/image/almond.svg"
-                                    alt=""></span><span class="animation-line">Roastery Store</span></li>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <li class="d-flex gap-3"><span><img class="list-icon" src="../../../assets/image/beef.svg"
-                                    alt=""></span><span class="animation-line">Meat Shop</span></li>
-                    </a>
-                </ul>
-
-            </div>
-        </div>
-
     </section>
     <!-- end retail section -->
 
     <!-- start article section -->
+
+
     <article class="article" id="Article">
-        <div class="d-flex margin-145 flex-column-reverse flex-md-row gap-3">
-            <div class="width-50">
-                <!-- article heading -->
-                <h2 class="text-start section-heading ">What is <span class="underLine">RePOS</span>?</h2>
-                <!-- responsive image diplay block from 0px - 768px -->
-                <figure class="width-50 d-flex d-md-none">
-                    <img class="home-img"
-                        src="../../../assets/image/home-img2-q8ke8akghn1b3vf737vw4tugqx1gby3zywe44b3vkg.png"
-                        alt="home-img">
-                </figure>
-                <!-- description -->
-                <div class="p">RePOS, the cutting-edge retail POS software built to take your business to new heights,
-                    allows you to
-                    experience retail excellence like never before. Say goodbye to manual processes and welcome improved
-                    operations, efficiency, and profitability.</div>
-                <div class="p mt-3">
-                    With RePOS, you can easily manage your sales transactions, maintain inventory, and obtain vital
-                    insights
-                    into the performance of your business in real time. Our simple design and intuitive features make it
-                    simple for you and your staff to execute transactions, handle petty cash, and provide excellent
-                    customer
-                    service.
+        <div class=" margin-145">
+            <div class="d-flex flex-column-reverse flex-md-row  gap-3">
+                <div class="width-50">
+                    <!-- article heading -->
+                    <div class="section-heading-block">
+                        <h2 class="text-start section-heading ">What is <span class="underLine">RePOS</span>?</h2>
+                    </div>
+                    <!-- responsive image diplay block from 0px - 768px -->
+                    <figure class="width-50 d-flex d-md-none">
+                        <img class="home-img"
+                            src="../../../assets/image/home-img2-q8ke8akghn1b3vf737vw4tugqx1gby3zywe44b3vkg.png"
+                            alt="home-img">
+                    </figure>
+                    <!-- description -->
+                    <div class="p">RePOS, the cutting-edge retail POS software built to take your business to new
+                        heights,
+                        allows you to
+                        experience retail excellence like never before. Say goodbye to manual processes and welcome
+                        improved
+                        operations, efficiency, and profitability.</div>
+                    <div class="p mt-3">
+                        With RePOS, you can easily manage your sales transactions, maintain inventory, and obtain vital
+                        insights
+                        into the performance of your business in real time. Our simple design and intuitive features
+                        make it
+                        simple for you and your staff to execute transactions, handle petty cash, and provide excellent
+                        customer
+                        service.
+                    </div>
+                    <div class="p mt-3">RePOS serves businesses of various sizes and types, from small shops to
+                        large-scale
+                        retail networks. Our
+                        software adjusts to your individual demands, offering a seamless and customised experience
+                        whether
+                        you
+                        manage a clothing store, a grocery store, or a speciality boutique. So, Join the growing
+                        community
+                        of
+                        successful businesses who have harnessed the power of our innovative software and taken their
+                        business
+                        to new heights!</div>
+                    <!-- button -->
+                    <a routerLink="" fragment="Form"><Button class="special-btn2 mt-4">Book a Demo</Button></a>
                 </div>
-                <div class="p mt-3">RePOS serves businesses of various sizes and types, from small shops to large-scale
-                    retail networks. Our
-                    software adjusts to your individual demands, offering a seamless and customised experience whether
-                    you
-                    manage a clothing store, a grocery store, or a speciality boutique. So, Join the growing community
-                    of
-                    successful businesses who have harnessed the power of our innovative software and taken their
-                    business
-                    to new heights!</div>
-                <!-- button -->
-                <Button class="special-btn2 mt-4">Book a Demo</Button>
+                <!-- show image after 768px -->
+                <figure class="width-50 d-none d-md-flex justify-content-center">
+                    <div class="home-img-block">
+                        <img class="home-img"
+                            src="../../../assets/image/home-img2-q8ke8akghn1b3vf737vw4tugqx1gby3zywe44b3vkg.png"
+                            alt="home-img">
+                    </div>
+
+                </figure>
             </div>
-            <!-- show image after 768px -->
-            <figure class="width-50 d-none d-md-flex">
-                <img class="home-img"
-                    src="../../../assets/image/home-img2-q8ke8akghn1b3vf737vw4tugqx1gby3zywe44b3vkg.png" alt="home-img">
-            </figure>
         </div>
 
+
     </article>
+
+
     <!-- end article section -->
 
     <!-- start feature section -->
-    <section class="feature-section margin-145" id="Feature">
-        <!-- heading start -->
-        <h2 class="section-heading  text-center">Explore our awesome Feature <span class="underLine">Set</span></h2>
-        <!-- feature main container -->
-        <div class="d-flex d-md-none d-xl-flex flex-column flex-md-row position-relative mt-5 gap-4">
-            <!--start left card container -->
-            <div class="col-12 col-md-3 d-flex flex-column gap-4">
-                <!-- card 1 -->
-                <div class="text-xl-end feature-card">
-                    <div class=" d-flex d-md-block align-items-center gap-4">
-                        <div
-                            class="position-relative feature-card-rotate d-flex align-items-center justify-content-center d-md-none">
-                            <figure
-                                class="feature-card-rotate-img anticlockwise d-flex align-items-center justify-content-center">
-                                <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
-                            </figure>
-                            <img class="feature-card-img position-absolute mb-3"
-                                src="../../../assets/image/Group-75.png" alt="">
-                        </div>
-                        <p class="feature-heading">Retail POS Software</p>
-                    </div>
-                    <p class="feature-description">Introducing a combination of unparalleled characteristics for
-                        managing
-                        your restaurant</p>
-                    <a href="#" class="know-more">know more > </a>
-                </div>
-                <!-- card 2 -->
-                <div class="text-xl-end feature-card me-md-5">
-                    <div class="d-flex d-md-block align-items-center gap-4">
-                        <div
-                            class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
-                            <figure
-                                class="feature-card-rotate-img clockwise d-flex align-items-center justify-content-center">
-                                <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
-                            </figure>
-                            <img class="feature-card-img position-absolute mb-3"
-                                src="../../../assets/image/Group-76.png" alt="">
-                        </div>
-                        <p class="feature-heading">Integrated Accounting</p>
-                    </div>
-                    <p class="feature-description">Helps you efficiently manage stock, unused items, reduce wastage and
-                        record new stock</p>
-                    <a href="#" class="know-more">know more > </a>
-                </div>
-                <!-- card 3 -->
-                <div class="text-xl-end feature-card">
-                    <div class="d-flex d-md-block align-items-center gap-4">
-                        <div
-                            class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
-                            <figure
-                                class="feature-card-rotate-img anticlockwise d-flex align-items-center justify-content-center">
-                                <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
-                            </figure>
-                            <img class="feature-card-img position-absolute mb-3"
-                                src="../../../assets/image/Group-77.png" alt="">
-                        </div>
-                        <p class="feature-heading">Uninterrupted Retail Billing Software</p>
-                    </div>
-                    <p class="feature-description">Enables you to drive result oriented sales and marketing campaigns
-                        for
-                        your restaurant</p>
-                    <a href="#" class="know-more">know more > </a>
-                </div>
-            </div>
-            <!--end left card container -->
-            <!-- start animation card -->
-            <div class="col-6  align-items-center justify-content-center d-none d-xl-flex">
-                <div class=" position-absolute d-flex align-items-center justify-content-center">
-                    <figure class="infographic-container position-absolute"><img class="infographic position-relative"
-                            src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC"></figure>
-                    <img class=" logo-infographic position-absolute"
-                        src="../../../assets/image/Re-Pos-Logo-in-Blue-With-tagline.png"
-                        alt="Re-Pos-Logo-in-Blue-With-tagline">
-                </div>
 
-                <div class="d-flex justify-content-between align-items-center circles-small-blocks ">
-                    <div class="d-flex flex-column gap-5 circle-small-block1">
-                        <img class="small-img img-odd-1" src="../../../assets/image/Group-75.png" alt="Group-79">
-                        <img class="small-img img-odd-2" src="../../../assets/image/Group-76.png" alt="">
-                        <img class="small-img img-odd-3" src="../../../assets/image/Group-77.png" alt="">
+
+    <section class="feature-section d-flex flex-column" id="Feature">
+
+        <!-- heading start -->
+        <div class="section-heading-block">
+            <h2 class="section-heading text-left  text-md-center">Explore our awesome Feature <span
+                    class="underLine">Set</span></h2>
+
+        </div>
+        <!-- feature main container -->
+        <div class=" d-flex margin-145 flex-column justify-content-center">
+            <div class="position-relative mt-5 gap-4 gap-md-2 main-feature-cards-block">
+                <!--start left card container -->
+                <div class="col-12 col-md-3 d-flex flex-column gap-4 gap-md-2">
+                    <!-- card 1 -->
+                    <div class="text-md-end feature-card">
+                        <div class=" d-flex d-md-block align-items-center gap-4">
+                            <div
+                                class="position-relative feature-card-rotate d-flex align-items-center justify-content-center d-md-none">
+                                <figure
+                                    class="feature-card-rotate-img anticlockwise d-flex align-items-center justify-content-center mb-0">
+                                    <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
+                                </figure>
+                                <img class="feature-card-img position-absolute "
+                                    src="../../../assets/image/Group-75.png" alt="">
+                            </div>
+                            <p class="feature-heading d-none d-md-block">Retail POS Software</p>
+                            <p class="feature-heading d-block d-md-none">Retail POS <br> Software</p>
+
+                        </div>
+                        <div class="feature-card-info">
+                            <p class="feature-description">Introducing a combination of unparalleled characteristics
+                                for
+                                managing
+                                your restaurant</p>
+                            <a href="#" class="know-more justify-content-start justify-content-md-end">know more ❯
+                            </a>
+                        </div>
+
                     </div>
-                    <div class="d-flex flex-column gap-5 circle-small-block2">
-                        <img class="small-img img-odd-4" src="../../../assets/image/Group-74-1.png" alt="">
-                        <img class="small-img img-odd-5" src="../../../assets/image/Group-79.png" alt="">
-                        <img class="small-img img-odd-6" src="../../../assets/image/Group-78.png" alt="">
+                    <!-- card 2 -->
+                    <div class="text-md-end feature-card me-md-5">
+                        <div class="d-flex d-md-block align-items-center gap-4">
+                            <div
+                                class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
+                                <figure
+                                    class="feature-card-rotate-img clockwise d-flex align-items-center justify-content-center mb-0">
+                                    <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
+                                </figure>
+                                <img class="feature-card-img position-absolute "
+                                    src="../../../assets/image/Group-76.png" alt="">
+                            </div>
+                            <p class="feature-heading d-none d-md-block">Integrated Accounting</p>
+                            <p class="feature-heading d-block d-md-none">Integrated <br> Accounting</p>
+                        </div>
+                        <div class="feature-card-info">
+                            <p class="feature-description">Helps you efficiently manage stock, unused items, reduce
+                                wastage
+                                and
+                                record new stock</p>
+                            <a href="#" class="know-more justify-content-start justify-content-md-end">know more ❯
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- card 3 -->
+                    <div class="text-md-end feature-card">
+                        <div class="d-flex d-md-block align-items-center gap-4">
+                            <div
+                                class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
+                                <figure
+                                    class="feature-card-rotate-img anticlockwise d-flex align-items-center justify-content-center mb-0">
+                                    <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
+                                </figure>
+                                <img class="feature-card-img position-absolute" src="../../../assets/image/Group-77.png"
+                                    alt="">
+                            </div>
+                            <p class="feature-heading d-none d-md-block">Uninterrupted Retail Billing Software</p>
+                            <p class="feature-heading d-block d-md-none">Uninterrupted Retail <br> Billing Software
+                            </p>
+                        </div>
+                        <div class="feature-card-info">
+                            <p class="feature-description">Enables you to drive result oriented sales and marketing
+                                campaigns
+                                for
+                                your restaurant</p>
+                            <a href="#" class="know-more justify-content-start justify-content-md-end"> know more ❯
+                            </a>
+                        </div>
+
                     </div>
                 </div>
+                <!--end left card container -->
+                <!-- start animation card -->
+                <div class="col-6  align-items-center justify-content-center animation-card">
+                    <div class=" position-absolute d-flex align-items-center justify-content-center">
+                        <figure class="infographic-container position-absolute mb-0"><img
+                                class="infographic position-relative" src="../../../assets/image/INFOGRAPHIC.png"
+                                alt="INFOGRAPHIC"></figure>
+                        <img class=" logo-infographic position-absolute"
+                            src="../../../assets/image/Re-Pos-Logo-in-Blue-With-tagline.png"
+                            alt="Re-Pos-Logo-in-Blue-With-tagline">
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center circles-small-blocks ">
+                        <div class="d-flex flex-column gap-5 circle-small-block1">
+                            <img class="small-img img-odd-1" src="../../../assets/image/Group-75.png" alt="Group-79">
+                            <img class="small-img img-odd-2" src="../../../assets/image/Group-76.png" alt="">
+                            <img class="small-img img-odd-3" src="../../../assets/image/Group-77.png" alt="">
+                        </div>
+                        <div class="d-flex flex-column gap-5 circle-small-block2">
+                            <img class="small-img img-odd-4" src="../../../assets/image/Group-74-1.png" alt="">
+                            <img class="small-img img-odd-5" src="../../../assets/image/Group-79.png" alt="">
+                            <img class="small-img img-odd-6" src="../../../assets/image/Group-78.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- end animation card -->
+                <!--start left card container -->
+                <div class="col-12 col-md-3 d-flex flex-column gap-4 gap-md-2">
+                    <!-- card 1 -->
+                    <div class="text-xl-start feature-card">
+                        <div class="d-flex d-md-block align-items-center gap-4">
+                            <div
+                                class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
+                                <figure
+                                    class="feature-card-rotate-img clockwise d-flex align-items-center justify-content-center mb-0">
+                                    <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
+                                </figure>
+                                <img class="feature-card-img position-absolute "
+                                    src="../../../assets/image/Group-74-1.png" alt="">
+                            </div>
+                            <p class="feature-heading d-none d-md-block">Supply Chain Management</p>
+                            <p class="feature-heading d-block d-md-none">Supply Chain <br> Management</p>
+                        </div>
+                        <div class="feature-card-info">
+                            <p class="feature-description">An exclusive feature for multichain restaurants or
+                                businesses
+                                operating
+                                on the franchisee model</p>
+                            <a href="#" class="know-more justify-content-start">know more ❯ </a>
+                        </div>
+
+                    </div>
+                    <!-- card 2 -->
+                    <div class="text-xl-start ms-md-5 feature-card">
+                        <div class="d-flex d-md-block align-items-center gap-4">
+                            <div
+                                class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
+                                <figure
+                                    class="feature-card-rotate-img anticlockwise d-flex align-items-center justify-content-center mb-0">
+                                    <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
+                                </figure>
+                                <img class="feature-card-img position-absolute" src="../../../assets/image/Group-79.png"
+                                    alt="">
+                            </div>
+                            <p class="feature-heading d-none d-md-block">CRM and Loyalty</p>
+                            <p class="feature-heading d-block d-md-none">CRM and <br> Loyalty</p>
+                        </div>
+                        <div class="feature-card-info">
+                            <p class="feature-description">Central management of overall functioning of menus,
+                                recipes,
+                                inventory,
+                                user roles & permissions</p>
+                            <a href="#" class="know-more justify-content-start">know more ❯ </a>
+                        </div>
+
+                    </div>
+                    <!-- card 3 -->
+                    <div class="text-xl-start feature-card">
+                        <div class="d-flex d-md-block align-items-center gap-4">
+                            <div
+                                class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
+                                <figure
+                                    class="feature-card-rotate-img clockwise d-flex align-items-center justify-content-center mb-0">
+                                    <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
+                                </figure>
+                                <img class="feature-card-img position-absolute" src="../../../assets/image/Group-78.png"
+                                    alt="">
+                            </div>
+                            <p class="feature-heading d-none d-md-block">Retail Software Utilities</p>
+                            <p class="feature-heading d-block d-md-none">Retail Software <br> Utilities</p>
+                        </div>
+                        <div class="feature-card-info">
+                            <p class="feature-description">Get powerful insights about your restaurant on-the-go and
+                                use
+                                it
+                                to
+                                improvise your business</p>
+                            <a href="#" class="know-more justify-content-start">know more ❯ </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!--end right card container -->
             </div>
-            <!-- end animation card -->
-            <!--start left card container -->
-            <div class="col-12 col-md-3 d-flex flex-column gap-4">
-                <!-- card 1 -->
-                <div class="text-xl-start feature-card">
-                    <div class="d-flex d-md-block align-items-center gap-4">
-                        <div
-                            class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
-                            <figure
-                                class="feature-card-rotate-img clockwise d-flex align-items-center justify-content-center">
-                                <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
-                            </figure>
-                            <img class="feature-card-img position-absolute mb-3"
-                                src="../../../assets/image/Group-74-1.png" alt="">
-                        </div>
-                        <p class="feature-heading">Supply Chain Management</p>
-                    </div>
-                    <p class="feature-description">An exclusive feature for multichain restaurants or businesses
-                        operating
-                        on the franchisee model</p>
-                    <a href="#" class="know-more">know more > </a>
-                </div>
-                <!-- card 2 -->
-                <div class="text-xl-start ms-md-5 feature-card">
-                    <div class="d-flex d-md-block align-items-center gap-4">
-                        <div
-                            class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
-                            <figure
-                                class="feature-card-rotate-img anticlockwise d-flex align-items-center justify-content-center">
-                                <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
-                            </figure>
-                            <img class="feature-card-img position-absolute mb-3"
-                                src="../../../assets/image/Group-79.png" alt="">
-                        </div>
-                        <p class="feature-heading">CRM and Loyalty</p>
-                    </div>
-                    <p class="feature-description">Central management of overall functioning of menus, recipes,
-                        inventory,
-                        user roles & permissions</p>
-                    <a href="#" class="know-more">know more > </a>
-                </div>
-                <!-- card 3 -->
-                <div class="text-xl-start feature-card">
-                    <div class="d-flex d-md-block align-items-center gap-4">
-                        <div
-                            class="position-relative feature-card-rotate  d-flex align-items-center justify-content-center d-md-none">
-                            <figure
-                                class="feature-card-rotate-img clockwise d-flex align-items-center justify-content-center">
-                                <img src="../../../assets/image/INFOGRAPHIC.png" alt="INFOGRAPHIC">
-                            </figure>
-                            <img class="feature-card-img position-absolute mb-3"
-                                src="../../../assets/image/Group-78.png" alt="">
-                        </div>
-                        <p class="feature-heading">Retail Software Utilities</p>
-                    </div>
-                    <p class="feature-description">Get powerful insights about your restaurant on-the-go and use it to
-                        improvise your business</p>
-                    <a href="#" class="know-more">know more > </a>
-                </div>
-            </div>
-            <!--end right card container -->
+
+
         </div>
         <!-- businese card -->
-        <div class="business-card d-flex flex-column justify-content-center align-items-center">
-            <h2 class="section-heading text-center mb-0 w-75 d-flex flex-column gap-3" >
-                <span class="d-block">Ready to revolutionize your Retail Business?</span> 
-                <span class="d-block"> Get started with RePOS today!</span>
-               
-            </h2>
-            <!-- <p class="fs-1">Get started with RePOS today!</p> -->
-            <div class="mt-4">
-                <button class="special-btn2" style=" border-color:#fff; color:#fff">Speak to our Specialists</button>
-            </div>
+        <div>
+            <div class="margin-145 d-flex justify-content-center">
+                <div class="business-card w-100 d-flex flex-column justify-content-center align-items-center">
+                    <div class="business-card-heading-block text-center d-flex flex-column gap-md-3">
+                        <span class="business-card-heading">Ready to revolutionize your Retail Business?</span>
+                        <span class="business-card-heading z-1"> Get started with RePOS <span
+                                class="underLine">today!</span></span>
 
+                    </div>
+                    <!-- <p class="fs-1">Get started with RePOS today!</p> -->
+                    <div class="pb-2 mt-md-4">
+                        <button class="special-btn2" style=" border-color:#fff; color:#fff">Speak to our
+                            Specialists</button>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
+
+
     <!-- end feature section -->
 
     <!-- start product section -->
-    <section class="product-section margin-145 mb-5" id="Product">
-        <h2 class="section-heading text-center pb-4">Our <span class="underLine">Product</span></h2>
-        <div class="prouct-content d-flex w-100  d-flex flex-column-reverse flex-md-row">
-            <div class="product-card d-flex flex-column gap-4 col-12 col-md-4">
+
+
+    <section class="product-section d-flex flex-column align-items-center" id="Product">
+        <div class="section-heading-block">
+            <h2 class="section-heading text-center pb-4">Our <span class="underLine">Products</span></h2>
+
+        </div>
+        <div class="product-content d-flex margin-145  d-flex flex-column-reverse flex-md-row">
+            <div class="product-card d-flex flex-column col-12 col-md-4">
 
                 <div class="small-card" (click)="selected(1)">
                     <span class="d-block product-card-heading">RePOS</span>
@@ -341,170 +453,253 @@
                 </div>
 
             </div>
-            <ng-container *ngFor="let data of product" class="product-card-content d-flex col-12 col-md-8 ">
-                <div *ngIf="data.id === currentId "
-                    class="d-flex flex-column flex-md-row align-items-center gap-5 justify-content-center ms-4">
-                    <figure class="product-main-image-container col-12 col-md-6 ms-3">
-                        <img class="product-main-image" src={{data.mainImage}} alt={{data.mainImage}}>
-                    </figure>
-                    <div class="col-12 col-md-6">
-                        <figure class="product-image-container">
-                            <img class="product-image" src={{data.image}} alt={{data.image}}>
+            <div>
+
+            </div>
+            <div class="product-card-content d-flex col-12 col-md-8" style="padding:10px">
+                <ng-container *ngFor="let data of product">
+                    <div *ngIf="data.id === currentId "
+                        class="d-flex flex-column flex-md-row align-items-center justify-content-center ms-md-4 product-content-info">
+                        <figure class="product-main-image-container col-12 col-md-6 d-flex justify-content-center" style="margin-left: 3%; padding:10px;">
+                            <img class="product-main-image" src={{data.mainImage}} alt={{data.mainImage}}
+                            style="width:90%; height:90%">
                         </figure>
-                        <p class="w-75 product-decsp ">{{data.description}}</p>
+                        <div class="col-12 col-md-6 d-flex flex-column gap-2 align-items-start">
+                            <figure class="product-image-container">
+                                <img class="product-image" src={{data.image}} alt={{data.image}}>
+                            </figure>
+                            <p class="product-descp">{{data.description}}</p>
+                        </div>
                     </div>
-                </div>
 
-            </ng-container>
-        </div>
-
-    </section>
-    <!-- end product section -->
-
-    <!-- start form section -->
-    <section class="form-section" id="Form">
-        <div class="d-flex flex-column justify-content-center align-items-center margin-145 pt-5 pb-4">
-            <h2 class="section-heading text-center" style="z-index: 2; position: relative;">Book a <span class="underLine">Demo</span></h2>
-            <div class="d-flex flex-column flex-md-row col gap-3 ">
-                <figure
-                    class="d-flex d-md-none col-0 col-xl-6 d-xl-flex align-items-center justify-content-center mt-5 mb-5">
-                    <img class="form-image" src="./../../../assets/image/start-demo-img.png" alt="">
-                </figure>
-                <div class=" col-md-12 col-xl-6 form pt-4 d-flex align-items-center justify-content-center">
-                    <form [formGroup]="user" (ngSubmit)="onubmit()" class="d-flex align-items-center flex-column gap-5">
-                        <div class="d-flex flex-column flex-md-row w-100 align-items-center justify-content-around">
-
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                                <div>
-                                    <label class="label" for="fullname">Full Name*</label>
-                                    <input type="text" id="fullname" formControlName="fullname" class="mt-1 mb-3">
-                                </div>
-
-                                <div *ngIf="submitted && f['fullname'].errors" style="color:red">
-                                    <span *ngIf="f['fullname'].errors['required']">Please Fill Out this Feild</span>
-                                </div>
-                            </div>
-
-
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                                <div>
-                                    <label class="label"  for="email">Email*</label>
-                                    <input type="text" id="email" formControlName="email" class="mt-1 mb-3">
-                                </div>
-                                <div *ngIf="submitted && f['email'].errors" style="color:red">
-                                    <span *ngIf="f['email'].errors['required']">Please Fill Out this Feild</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="d-flex flex-column flex-md-row gap-3 w-100 align-items-center justify-content-around ">
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                                <label class="label"  for="role">Country*</label>
-                                    <select name="" id="country" formControlName="country">
-                                        <option [ngValue]="null" disabled selected>Select Country</option>
-                                        <!-- <ng-container *ngFor="let data of retailOption"> -->
-                                        <option *ngFor="let data of countryOption" [ngValue]="data">{{data}}</option>
-    
-                                    </select>
-                                </div>
-
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                                <div>
-                                    <label class="label"  for="contact">Contact No*
-                                    </label>
-                                    <input type="text" id="contact" class="mt-1 mb-3" formControlName="contact">
-                                </div>
-                                <div *ngIf="submitted && f['contact'].errors" style="color:red">
-                                    <span *ngIf="f['contact'].errors['required']">Please Fill Out this Feild</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div
-                            class="d-flex flex-column flex-md-row gap-3 w-100 align-items-center justify-content-around">
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                                <div>
-                                    <label class="label"  for="state" class="w-50">State*
-                                    </label>
-                                    <input type="text" id="state" class="mt-1 mb-3" formControlName="state">
-                                </div>
-                                <div *ngIf="submitted && f['state'].errors" style="color:red">
-                                    <span *ngIf="f['state'].errors['required']">Please Fill Out this Feild</span>
-state                                </div>
-                            </div>
-
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                                <div>
-                                    <label class="label"  for="city" class="w-50">City*
-                                    </label>
-                                    <input type="text" id="city" class="mt-1 mb-3" formControlName="city">
-                                </div>
-                                <div *ngIf="submitted && f['city'].errors" style="color:red">
-                                    <span *ngIf="f['city'].errors['required']">Please Fill Out this Feild</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="d-flex flex-column flex-md-row gap-3 w-100 align-items-center justify-content-around">
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                                <div>
-                                    <label class="label"  for="brand">Brand Name*</label>
-                                    <input type="text"id="brand" class="mt-1 mb-3" formControlName="brand">
-                                </div>
-                                <div *ngIf="submitted && f['brand'].errors" style="color:red">
-                                    <span *ngIf="f['brand'].errors['required']">Please Fill Out this Feild</span>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                                <label class="label"  for="retail">Retail Business Format*</label>
-                                <select name="mm" id="retail" formControlName="retail">
-                                    <option [ngValue]="null" disabled selected>Select Retal Business Format</option>
-                                    <!-- <ng-container *ngFor="let data of retailOption"> -->
-                                    <option *ngFor="let data of retailOption" [ngValue]="data">{{data}}</option>
-
-                                </select>
-
-                            </div>
-                        </div>
-                        <div
-                            class="d-flex flex-column flex-md-row gap-3 w-100 align-items-center justify-content-around">
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                            <label class="label"  for="role">Role*</label>
-                                <select name="mm" id="role" formControlName="role">
-                                    <option [ngValue]="null" disabled selected>Select Role</option>
-                                    <!-- <ng-container *ngFor="let data of retailOption"> -->
-                                    <option *ngFor="let data of roleOption" [ngValue]="data">{{data}}</option>
-
-                                </select>
-                            </div>
-
-                            <div class="d-flex flex-column col-5  ps-2 pe-2 border-bottom">
-                                <div>
-                                    <label class="label"  for="outlet">No. of Outlets</label>
-                                    <input type="text" id="outlet" class="mt-1 mb-3" formControlName="outlet">
-                                </div>
-                                <div *ngIf="submitted && f['outlet'].errors" style="color:red">
-                                    <span *ngIf="f['outlet'].errors['required']">Please Fill Out this Feild</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <button class="special-btn2" type="submit">Submit Inquiry</button>
-
-                        </div>
-                    </form>
-                </div>
+                </ng-container>
             </div>
         </div>
 
     </section>
+
+
+    <!-- end product section -->
+
+    <!-- start form section -->
+
+
+    <section class="form-section w-100" id="Form">
+        <div class="d-flex flex-column align-items-center margin-145 pt-5 pb-4">
+
+            <div class="w-100">
+                <div class="section-heading-block">
+                    <h2 class="section-heading text-center" style="z-index: 2; position: relative;">Book a <span
+                            class="underLine">Demo</span></h2>
+                </div>
+                <div class="d-flex flex-column align-items-center flex-md-row gap-3 w-100">
+                    <figure
+                        class="d-flex d-md-none d-xl-flex align-items-end justify-content-center mt-5 mb-5 form-img-block form-img-block2 mb-md-0">
+                        <img class="form-image" src="./../../../assets/image/start-demo-img.png" alt="">
+                    </figure>
+                    <div class=" pt-4  w-100 align-items-start align-items-md-center justify-content-md-center">
+                        <form [formGroup]="user" (ngSubmit)="onubmit()"
+                            class=" d-flex align-items-center form flex-column w-100">
+                            <div class="d-flex flex-column flex-md-row w-100 align-items-center  align-items-md-end gap-3">
+
+                                <div class="d-flex flex-column ps-3 pe-3 input-block">
+                                    <div class="border-bottom">
+                                        <div class="d-flex flex-column mb-3">
+                                            <label class="label" for="fullname">Full Name*</label>
+                                            <input type="text" id="fullname" formControlName="fullname" class="mt-1">
+                                        </div>
+                                    </div>
+
+                                    <div *ngIf="submitted && f['fullname'].errors" style="color:red">
+                                        <span *ngIf="f['fullname'].errors['required']">Please Fill Out this Feild</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="d-flex flex-column ps-3 pe-3 input-block">
+                                    <div class="border-bottom">
+                                        <div class="d-flex flex-column mb-3">
+                                            <label class="label" for="email">Email*</label>
+                                            <input type="text" id="email" formControlName="email" class="mt-1">
+                                        </div>
+                                    </div>
+                                    <div *ngIf="submitted && f['email'].errors" style="color:red">
+                                        <span *ngIf="f['email'].errors['required']">Please Fill Out this Feild</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column flex-md-row gap-3 w-100  align-items-center align-items-md-end">
+                                <div class="d-flex flex-column ps-3 pe-3 position-relative input-block">
+                                    <div class="border-bottom ">
+                                        <label class="label" for="role">Country*</label>
+                                        <div class="d-flex gap-2 align-items-center justify-content-center"
+                                            (click)="setSelectOptionValue('','country')">
+                                            <span
+                                                class="d-flex gap-2 justify-content-center align-items-center ountryimg"
+                                                style="font-size: 12px;">
+                                                <figure style="width:21px;height: fit-content;">
+                                                    <img [src]="defaultCountry.img" width="100%">
+                                                </figure><span class="d-flex align-self-center text-muted w-25"><i
+                                                        class="fa-solid fa-caret-down"></i></span>
+                                            </span>
+                                            <input type="text" id="role" class="mt-1 mb-3 w-100"
+                                                formControlName="country" placeholder="Select Role">
+                                        </div>
+
+                                    </div>
+                                    <div class="border border-1 border-primary w-75 d-flex flex-column bg-light p-3 gap-3 position-absolute"
+                                        style="margin-top: 70px;z-index: 5;height: 150px; overflow:auto;"
+                                        *ngIf="countryOptionDisplay">
+
+                                        <span *ngFor="let r of countryData;index as i" [id]="i"
+                                            (click)="setSelectOptionValue(r,'country')"
+                                            class="d-flex align-items-center  gap-2">
+                                            <span><img [src]="r.flags.svg" width="27px"></span><span
+                                                style="font-size: 1vw;">{{r.name.common}}</span></span>
+                                    </div>
+
+                                </div>
+
+                                <div class="d-flex flex-column ps-3 pe-3 input-block">
+                                    <div class="border-bottom">
+                                        <div class="d-flex flex-column mb-3">
+                                            <label class="label" for="contact">Contact No*
+                                            </label>
+                                            <input type="phone" id="contact" class="mt-1" formControlName="contact"
+                                                max="14" min="11">
+                                        </div>
+                                    </div>
+                                    <div *ngIf="submitted && f['contact'].errors" style="color:red">
+                                        <span *ngIf="f['contact'].errors['required']">Please Fill Out this Feild</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column flex-md-row gap-3 w-100  align-items-center align-items-md-end">
+                                <div class="d-flex flex-column ps-3 pe-3 input-block">
+                                    <div class="border-bottom">
+                                        <div class="d-flex flex-column mb-3">
+                                            <label class="label" for="state">State*
+                                            </label>
+                                            <input type="text" id="state" class="mt-1" formControlName="state">
+                                        </div>
+                                    </div>
+                                    <div *ngIf="submitted && f['state'].errors" style="color:red">
+                                        <span *ngIf="f['state'].errors['required']">Please Fill Out this
+                                            Feild</span>state
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-column ps-3 pe-3 input-block">
+                                    <div class="border-bottom">
+                                        <div class="d-flex flex-column mb-3">
+                                            <label class="label" for="city">City*
+                                            </label>
+                                            <input type="text" id="city" class="mt-1" formControlName="city">
+                                        </div>
+                                    </div>
+                                    <div *ngIf="submitted && f['city'].errors" style="color:red">
+                                        <span *ngIf="f['city'].errors['required']">Please Fill Out this Feild</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column flex-md-row gap-3 w-100  align-items-center align-items-md-end">
+                                <div class="d-flex flex-column  ps-3 pe-3  input-block">
+                                    <div class="border-bottom">
+                                        <div class="d-flex flex-column mb-3">
+
+                                            <label class="label" for="brand">Brand Name*</label>
+                                            <input type="text" id="brand" class="mt-1" formControlName="brand">
+                                        </div>
+
+                                    </div>
+                                    <div *ngIf="submitted && f['brand'].errors" style="color:red">
+                                        <span *ngIf="f['brand'].errors['required']">Please Fill Out this Feild</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-column col-5  ps-3 pe-3  position-relative input-block">
+
+                                    <div class="border-bottom w-100">
+                                        <label class="label" for="retail">Retail Business Format*</label>
+                                        <div class="d-flex gap-2" (click)="setSelectOptionValue('','retail')">
+                                            <input type="text" id="retail" class="mt-1 mb-3 w-100" value=""
+                                                formControlName="retail" placeholder="Select Retail Buisness Format"
+                                                readonly><span class="d-flex align-self-center text-muted">
+                                                <i class="fa-solid fa-angle-down"></i></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="option-box border border-1 border-primary w-75 d-flex flex-column bg-light  position-absolute "
+                                        style="margin-top: 70px;z-index: 5" *ngIf="retailOptionDiaplay">
+                                        <span class="ps-2" *ngFor="let r of retailOption;index as i" [id]="i"
+                                            (click)="setSelectOptionValue(r,'retail')">{{r}}</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="d-flex flex-column flex-md-row gap-3 w-100  align-items-center align-items-md-end position-relative">
+                                <div class="d-flex flex-column  ps-3 pe-3 input-block position-relative">
+
+                                    <div class="border-bottom">
+                                        <label class="label" for="role">Role*</label>
+                                        <div class="d-flex gap-2" (click)="setSelectOptionValue('','role')">
+                                            <input type="text" id="role" class="mt-1 mb-3 w-100" value=""
+                                                formControlName="role" placeholder="Select Role" readonly><span
+                                                class="d-flex align-self-center text-muted"><i
+                                                    class="fa-solid fa-angle-down"></i></span>
+                                        </div>
+
+                                    </div>
+                                    <div class="option-box w-75 border border-1 border-primary  d-flex flex-column bg-light position-absolute "
+                                        style="margin-top: 70px;z-index: 5" *ngIf="roleOptionDiaplay">
+                                        <span class="ps-2" *ngFor="let r of roleOption;index as i" [id]="i"
+                                            (click)="setSelectOptionValue(r,'role')">{{r}}</span>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="d-flex flex-column col-5 input-block ps-3 pe-3">
+                                    <div class="border-bottom">
+                                        <div class="d-flex flex-column mb-3">
+                                            <label class="label" for="outlet">No. of Outlets</label>
+                                            <input type="text" id="outlet" class="mt-1 " formControlName="outlet">
+                                        </div>
+                                    </div>
+                                    <div *ngIf="submitted && f['outlet'].errors" style="color:red">
+                                        <span *ngIf="f['outlet'].errors['required']">Please Fill Out this
+                                            Feild</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-center">
+                                <button class="special-btn2" type="submit">Submit Inquiry</button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
     <!-- end form section -->
     <div class="d-flex flex-column position-relative">
 
         <app-footer>
         </app-footer>
         <div class="p-2 d-flex float-end w-100 justify-content-end mt-1 me-5 position-absolute">
-            <a href="#" class="p-2 bg-light rounded"><i class="fa-solid fa-angle-up"></i></a>
+            <a routerLink="" fragment="Header" class="p-2 bg-light rounded"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </div>
 

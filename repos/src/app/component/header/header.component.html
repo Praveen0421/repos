@@ -1,37 +1,42 @@
 <!-- starting hero section -->
-<section class="hero-section" >
-<div class="margin-145">
-    <!-- start nav -->
-    <nav class=" hero-nav d-flex justify-content-between">
-        <figure class="logo-container">
-            <img class="repos-logo" src="../../../assets/image/Logo-326x121-1-e1700720139609.png" alt="reos logo">
-        </figure>
-        <!--start action button block -->
+<section class="hero-section d-flex flex-column" >
+        <!-- start nav -->
+        <nav class="hero-nav d-flex justify-content-between align-items-center margin-145">
+            <figure class="logo-container">
+                <img class="repos-logo" src="../../../assets/image/Logo-326x121-1-e1700720139609.png" alt="reos logo">
+            </figure>
+            <!--start action button block -->
+    
+            <ul class="hero-action-btns d-flex align-items-center">
+                <li class="d-none d-xl-block"><a  href='#'class="normal-btn">About</a></li>
+                <li class="d-none d-xl-block"><a href='#' class="normal-btn">Contact</a></li>
+                <li class="d-block d-xl-none"><i data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight" class="fa-solid fa-bars hambar"></i></li>
+                <li class="d-none d-sm-block"><a routerLink="" fragment="Form" class="text-white"  class="special-btn ms-2">Book a Demo</a></li>
+            </ul>
+            <!--end action button block -->
+    
+    
+        </nav>
+<div class="hero-content-container d-flex align-items-center justify-content-center flex-column align-self-center ">
 
-        <ul class="hero-action-btns d-flex align-items-center">
-            <li class="d-none d-xl-block"><a  href='#'class="normal-btn">About</a></li>
-            <li class="d-none d-xl-block"><a href='#' class="normal-btn">Contact</a></li>
-            <li class="d-block d-xl-none"><i data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                    aria-controls="offcanvasRight" class="fa-solid fa-bars hambar"></i></li>
-            <li class="d-none d-sm-block"><a href='#' class="special-btn ms-2">Book a Demo</a></li>
-        </ul>
-        <!--end action button block -->
-
-
-    </nav>
     <!-- end nav -->
     <!-- start hero section introduction block -->
     <div class="hero-section-content position-relative">
         <h1 class="hero-heading">Transform your Retail Business with our advanced POS <span
                 class="underLine">Software</span></h1>
+                <h1 class="hero-heading2">Transform your Retail<br> Business with our<br> advanced POS <span
+                    class="underLine">Software</span></h1>
         <p class="hero-para pt-2">Unlock the potential of seamless transctions, effortless petty cash management,
             optimized invertory control and elevated customer experiences with our empowering retail POS software.
         </p>
-        <button class="special-btn2 mt-4">Book a Demo</button>
+        <button class="special-btn2 mt-sm-4"><a routerLink="" fragment="Form" class="text-white" >Book a Demo</a></button>
     </div>
     <!-- end hero section introduction block -->
     <figure class="hero-bg-container">
         <img class="hero-bg" src="../../../assets/image/bg-hero-main-scaled.jpg" alt="bg-hero-main-scaled">
+        <img class="hero-bg2" src="../../../assets/image/Group-28.png" alt="bg-hero-main-scaled">
+
     </figure>
         <!-- ovcanvas -->
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
